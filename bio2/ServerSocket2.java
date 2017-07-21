@@ -69,6 +69,12 @@ final class ServerCmd {
 	public static final String CMD_QUERY_TIME = "QUERY TIME";
 }
 
+/**
+ * @ClassName: ServerHandleThreadPool
+ * @Description: 执行任务的线程池
+ * @Author Mr.Gao
+ * @Date: 2017年7月21日 下午8:16:07
+ */
 class ServerHandleThreadPool {
 
 	private static final long keepAliveTime = 120L;
@@ -93,6 +99,7 @@ class ServerHandleThreadPool {
 
 /**
  * @ClassName: ServerHandleThread
+ * @Description: 处理每次客户端请求
  * @Author Mr.Gao
  * @Date: 2017年7月21日 下午6:40:43
  */
