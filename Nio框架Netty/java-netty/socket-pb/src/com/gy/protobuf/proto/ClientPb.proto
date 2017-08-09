@@ -1,0 +1,11 @@
+option java_package = "com.gy.protobuf.message";
+option java_outer_classname = "ClientPb";
+message Request {    
+    required int32 cmd = 1;    
+    required string data = 2;     
+}
+
+message Response {    
+    required int32 cmd = 1;    
+    required string data = 2;     
+}
